@@ -1,0 +1,10 @@
+﻿<RCC>
+    <qresource prefix="/icons">
+        <file alias="app.png">icons/app.png</file>
+        <file>icons/icons8-planner-48.png</file>
+        <file>icons/icons8-plasma-ball-48.png</file>
+        <file>icons/icons8-programming-48.png</file>
+        <file>icons/icons8-math-48.png</file>
+        <file>icons/icons8-tangent-48.png</file>
+    </qresource>
+</RCC>
