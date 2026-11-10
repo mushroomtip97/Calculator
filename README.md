@@ -168,3 +168,14 @@ Calculator-Project/
 
 Comments explain **why**, not **what**. Planned work uses `// TODO:`,
 known bugs use `// FIXME:`.
+
+---
+
+## Icon credits
+
+Mode and application icons are from [Icons8](https://icons8.com).
+
+## License
+
+This project is licensed under the MIT License. See [LICENSE](LICENSE).
+
