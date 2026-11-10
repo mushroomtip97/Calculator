@@ -5,7 +5,6 @@ A Windows-style desktop calculator written in C++ and Qt 6 Widgets.
 Started as a learning project. Current version has five calculator modes,
 keyboard input, a history panel, mode icons, and nine visual themes.
 
----
 
 ## Features
 
@@ -49,7 +48,6 @@ keyboard input, a history panel, mode icons, and nine visual themes.
 - Themes: Light, Dark, Blue, High contrast, Silver, Gold,
   Ink light, Ink blue, Ink pure
 
----
 
 ## Building
 
@@ -73,54 +71,6 @@ ctest --test-dir build --output-on-failure
 In Qt Creator, open `CMakeLists.txt`, select a Qt 6 kit, then build and run
 the `Calculator` target.
 
----
-
-## Project structure
-
-```text
-Calculator-Project/
-├─ CMakeLists.txt
-├─ README.md
-├─ resources/
-│  ├─ app.ico
-│  ├─ app.qrc
-│  ├─ app.rc
-│  └─ icons/
-├─ tests/
-│  ├─ tst_clcengine.cpp
-│  └─ tst_programmerengine.cpp
-└─ src/
-   ├─ main.cpp
-   ├─ app/
-   │  ├─ mainwindow.*
-   │  ├─ Themes.h
-   │  ├─ Icons.h
-   │  ├─ TintColor.h
-   │  └─ UiHelper.h
-   ├─ core/
-   │  ├─ clcengine.*
-   │  ├─ programmerengine.*
-   │  └─ StringUtils.h
-   ├─ modes/
-   │  ├─ standardcalculator.*
-   │  ├─ scientificcalculator.*
-   │  ├─ programmercalculator.*
-   │  └─ datecalculator.*
-   └─ graph/
-      ├─ graphscene.*
-      └─ graphingcalculator.*
-```
-
-| Folder | Purpose |
-|---|---|
-| `src/app` | Main window, modes, themes, icons |
-| `src/core` | Calculation engines and shared helpers |
-| `src/modes` | One widget per calculator mode |
-| `src/graph` | Graph scene and graphing page |
-| `tests` | Engine unit tests |
-| `resources` | Icons and Windows resources |
-
----
 
 ## Controls
 
@@ -140,7 +90,6 @@ Calculator-Project/
 ## TODO
 
 ### Architecture
-
 - [ ] Reduce remaining duplication between calculator pages
 - [ ] Move memory-button logic into a shared base class
 - [ ] Create a shared display-update helper
@@ -162,20 +111,10 @@ Calculator-Project/
 - [ ] Run a static analyzer
 - [ ] Build and test in Release mode
 
----
-
-## Comments
-
-Comments explain **why**, not **what**. Planned work uses `// TODO:`,
-known bugs use `// FIXME:`.
-
----
-
 ## Icon credits
 
 Mode and application icons are from [Icons8](https://icons8.com).
 
 ## License
-
 This project is licensed under the MIT License. See [LICENSE](LICENSE).
 
